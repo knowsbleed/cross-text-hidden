@@ -1,0 +1,180 @@
+/*Palette
+------------------------------------------------
+black 			- #000000
+dark grey 		- #0f0f0c
+grey			- #2e2e2b
+sand 			- #ccc9a9
+red 			- #c11616
+
+easy to read	- Marcellus 	
+handwriting		- Cormorant Upright
+----------------------------------------------*/
+
+
+
+/*Global Styles
+------------------------------------------------*/
+body {
+	background-color: #000000;
+	
+	height: 100%;
+	width: 0 auto;
+	
+	min-height: auto;
+	min-width: auto;
+	
+	max-height: ;
+	max-width: ;
+	
+	font-size: 1em;
+	/*font-family: 'Marcellus', serif;*/
+	font-family: 'Cormorant Upright', serif;
+	
+}
+
+
+table {
+	margin: 0 auto;
+	border-collapse: collapse;
+	
+	text-align: center;
+	padding: 0px 3px 0px 3px;
+	font-weight: 900;
+}
+
+td {
+	height: 20px;
+	transition: 20s;
+}
+
+
+td:hover {
+	color: #ccc9a9;
+	transition: 0.3s;
+}
+
+td:active {
+	color: #c11616;
+}
+
+
+
+/*Sections---------------------------------------------*/
+.top {
+	height: 23px;
+	letter-spacing: 0.5em;
+}
+
+.bottom {
+	height: 34px;
+	letter-spacing: 0.5em;
+}
+
+.side { 
+	height: 100px;
+	letter-spacing: 0.4em;
+	
+	border-top: 1px #0f0f0c solid;
+	border-bottom: 10px #0f0f0c solid;
+	
+	background-color: #000000;
+}
+
+
+.stem {
+	border-left: 1px #0f0f0c solid;
+	border-right: 10px #0f0f0c solid;
+	
+	background-color: #000000;
+}
+
+.center {
+	height: 41px;
+	letter-spacing: 0.8em;
+	background-color: #000000;
+}
+
+
+
+/*Specific words at 4 edges
+-------------------------------------------------*/
+.stem.A {
+	border-top: 5px #0f0f0c solid;
+}
+
+.stem.fire {
+	border-bottom: 10px #0f0f0c solid;
+}
+
+
+.The {
+	border-left: 1px #0f0f0c solid;
+}
+
+.holy {
+border-right: 10px #0f0f0c solid;
+}
+
+
+
+/*Alignment and Font Styles
+-----------------------------------------------*/
+.mid {
+	
+}
+
+.up {
+	vertical-align: top;
+	
+}
+
+.dwn {
+	vertical-align: bottom;
+}
+
+.lft {
+	text-align: left;
+}
+
+.rht {
+	text-align: right;
+}
+
+
+.light {
+	font-weight: 400;
+}
+
+::selection {
+	background: #000000;
+	color: #000000;
+}
+
+/*Copywright-----------------------------------*/
+.credit {
+	font-weight: 400;
+	color: #3c3c38;
+	font-family: 'Marcellus', serif;
+}
+
+.zeal:after {
+	content: '©Zeal & Ardor';
+}
+
+.zeal:hover:after {
+	content: 'Lyrics';
+	color: #c11616;
+}
+
+.knows:after {
+	font-size: 0.9em;
+	content: '©knowsbleed';
+}
+
+.knows:hover:after {
+	font-size: 0.9em;
+	content: 'Scripting';
+	color: #c11616;
+}
+
+
